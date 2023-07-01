@@ -1,0 +1,99 @@
+.podcastdetail {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.imageblock {
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imageblock img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.rectangleimg {
+  width: 50%;
+  height: 25%;
+  border-radius: 4%;
+  margin-top: 2vh;
+}
+
+.lineimageblock {
+  width: 90%;
+  height: 1px;
+  background-color: lightgray;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin: 1vh;
+}
+.description1underimage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2vh;
+  font-size: 2vh;
+}
+.podcastname {
+  margin: 0;
+  font-weight: bold;
+}
+.artistname {
+  margin: 0;
+  font-style: italic;
+}
+.description2underimage {
+  margin: 0%;
+}
+
+.descriptiondescription {
+  font-size: 1.8vh;
+  font-weight: bold;
+}
+
+.descriptionblock {
+  margin-top: 2vh;
+  width: 80vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.episode {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 1vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.headerepisode {
+  display: flex;
+  font-weight: bold;
+  font-size: 4vh;
+  margin: 2vh;
+}
+.descriptiontext {
+  display: flex;
+  margin: 2vh;
+  font-size: 2vh;
+}
+.audioplayer {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 5vh;
+  margin-bottom: 2vh;
+}

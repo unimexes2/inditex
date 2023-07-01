@@ -1,0 +1,15 @@
+.error-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.error-code {
+  font-size: 48px;
+  color: red;
+}
+
+.error-message {
+  font-size: 24px;
+  color: gray;
+  margin-top: 20px;
+}
